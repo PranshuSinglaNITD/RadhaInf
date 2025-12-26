@@ -12,6 +12,8 @@
 - This project is designed and tuned to improve detection performance in foggy conditions: when the model is fine-tuned on foggy-domain data and augmented appropriately, it typically achieves higher recall and precision on foggy images than a vanilla off-the-shelf model that was not adapted for fog.
 - Note: actual recall/precision gains depend on the training dataset, augmentation strategy, model size, and training schedule — evaluate on your test split and adjust hyperparameters accordingly.
 
+**Demo on a video**
+https://github.com/user-attachments/assets/19cbaef5-a3ca-4828-9316-a43dfff3232b
 
 **Requirements**
 - **Python:** 3.8+ recommended.
