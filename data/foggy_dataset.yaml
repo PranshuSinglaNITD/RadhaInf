@@ -1,0 +1,14 @@
+train: foggy/train/images
+val: foggy/valid/images
+test: foggy/test/images
+
+nc: 8
+# Use lowercase names to avoid case-mismatch with detector labels
+names: ['bus', 'car', 'cycle', 'motorcycle', 'person', 'train', 'truck', 'van']
+
+roboflow:
+  workspace: sample123
+  project: foggy-cityscapes-dataset-hravr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sample123/foggy-cityscapes-dataset-hravr/dataset/1
